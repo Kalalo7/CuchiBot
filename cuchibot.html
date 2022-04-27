@@ -1,0 +1,31 @@
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="cuchibot.css">
+<header>
+<h1>Soy Cuchi CaldeBot y te doy mi opinion sobre lo que quieras!</h1>
+</header>
+
+<img id="banner" src="banner.jpg">
+
+<body class="principal">
+<script>
+
+	function saltarLinea() {
+		
+		document.write("<br><br><br>");
+	}
+
+	function imprimir(frase) {
+		document.write(frase);
+		saltarLinea();
+
+	}
+	saltarLinea();
+	
+	var opinoSobre = prompt("ingrese sobre lo que quieras que opine");
+
+	imprimir("Lo que te puedo decir es que " + opinoSobre + " es espectacular, pero espectacular ehhh!! ");
+	
+
+</script>
+</body>
